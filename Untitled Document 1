@@ -1,0 +1,67 @@
+Bigtable
+From Wikipedia, the free encyclopedia
+Google Bigtable Developer(s) 	Google Inc.
+Initial release 	February 2005; 12 years ago
+Written in 	
+C++ (main core), Java, Python, Go, Ruby
+Platform 	Google Cloud Platform
+Type 	Cloud Storage
+License 	Proprietary
+Website 	cloud.google.com/bigtable/
+
+Bigtable is a compressed, high performance, and proprietary data storage system built on Google File System, Chubby Lock Service, SSTable (log-structured storage like LevelDB) and a few other Google technologies. On May 6, 2015, a public version of Bigtable was made available as a service. Bigtable also underlies Google Cloud Datastore, which is available as a part of the Google Cloud Platform.[1][2
+
+BigTable was designed to support applications requiring massive scalability; from its first iteration, the technology was intended to be used with petabytes of data. The database was designed to be deployed on clustered systems and uses a simple data model that Google has described as "a sparse, distributed, persistent multidimensional sorted map." Data is assembled in order by row key, and indexing of the map is arranged according to row, column keys and timestamps. Compression algorithms help achieve high capacity.
+
+
+Massively Scalable NoSQL
+
+Cloud Bigtable is Google's NoSQL Big Data database service. It's the same database that powers many core Google services, including Search, Analytics, Maps, and Gmail.
+
+Bigtable is designed to handle massive workloads at consistent low latency and high throughput, so it's a great choice for both operational and analytical applications, including IoT, user analytics, and financial data analysis.
+
+Fast & Performant
+
+Bigtable offers low latency and high throughput at any scale or application type. You can use Bigtable as the storage engine for large-scale, low-latency applications as well as throughput-intensive data processing and analytics.
+
+Seamless Scaling
+
+Bigtable provisions and scales to hundreds of petabytes automatically, and can smoothly handle millions of operations per second. Changes to the deployment configuration are immediate, so there is no downtime during reconfiguration.
+
+Simple & Integrated
+
+Bigtable integrates easily with popular Big Data tools like Hadoop, as well as Google Cloud Platform products like Cloud Dataflow and Dataproc. Plus, Bigtable supports the open-source, industry-standard HBase API, which makes it easy for development teams to get started.
+
+
+
+
+
+
+
+
+Cloud Bigtable Features
+Cloud Bigtable is a fast, fully managed, massively scalable NoSQL database service.
+
+High Performance
+    Cloud Bigtable has a higher performance under high load than alternative products. What this means is that large applications and workflows are faster, more reliable, and more efficient running on Bigtable. 
+Security & Permissions
+    All data is encrypted both in-flight and at rest. You can use project-level permissions to control who has access to data stored in Cloud Bigtable. 
+Low Latency Storage
+    Cloud Bigtable utilizes a low-latency storage stack, enabling single-digit millisecond latency at the 99th percentile, compared to more than 50x that latency with alternative products. 
+Global Availability
+    Cloud Bigtable is available in regions around the world, allowing you to place your service and data exactly where you want it. 
+Fully Managed
+    Cloud Bigtable is offered as a fully managed service, meaning you spend your time developing valuable applications instead of configuring and tuning your database for performance and scalability. In addition, Google’s own Bigtable operations team monitors the service to ensure issues are addressed quickly. 
+
+Redundant Autoscaling Storage
+    Cloud Bigtable is built with a redundant internal storage strategy for high durability. You don’t need to configure separate storage or disks, and you only pay for the amount of storage you are using. 
+Scaling
+    During operation without the need for a restart, allowing efficient use of resources and helping your applications and workflows stay up and running. 
+HBase Compatible
+    In addition to its native RPC-based API, Cloud Bigtable provides an HBase-compatible interface. This enables portability of applications between HBase and Bigtable. 
+Seamless Cluster Resizing
+    Cloud Bigtable cluster nodes can be dynamically added and removed. 
+
+
+
+
